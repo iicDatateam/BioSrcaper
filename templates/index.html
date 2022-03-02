@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+<head>
+    <meta charset="UTF-8">
+    <title>PayScale API - Request</title>
+</head>
+<h3>Bioscraper Tool</h3>
+<div class="content">
+<form method="POST">
+    <p>Name <input type="text" name="name" /></p>
+	
+    <p><input type="submit" value="Submit" ></p>
+	<textarea contenteditable>{{data}}</textarea>
+	
+</form>
+<div>
